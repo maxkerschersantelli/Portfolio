@@ -1,8 +1,9 @@
 module.exports = {
   apps: [{
     name: 'portfolio',
+    cwd: '~/Portfolio/source',
     script: 'npm',
-      args: 'run build'
+    args: 'run build'
   }],
   deploy: {
     production: {

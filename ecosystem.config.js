@@ -2,7 +2,7 @@ module.exports = {
   apps: [{
     name: 'portfolio',
     script: 'npm',
-      args: 'run-script build && npm run-script start'
+      args: 'start'
   }],
   deploy: {
     production: {

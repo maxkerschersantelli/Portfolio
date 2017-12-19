@@ -51,7 +51,7 @@ const MainMenu = (props: { location: { pathname: string } }) => (
 			<Button to="/work_experience">Work Experience</Button>
 		)}
 		{props.location.pathname === '/skills' ? (
-			<ButtonSelected to="/skills">Skills we fucking did it 2</ButtonSelected>
+			<ButtonSelected to="/skills">Skills we fucking did it 3</ButtonSelected>
 		) : (
 			<Button to="/skills">Skills</Button>
 		)}

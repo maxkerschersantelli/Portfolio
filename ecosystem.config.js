@@ -1,7 +1,7 @@
 module.exports = {
   apps: [{
     name: 'portfolio',
-    script: './index.js'
+    script: 'npm run-script build && npm run-script start'
   }],
   deploy: {
     production: {

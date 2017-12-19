@@ -11,7 +11,7 @@ const compression = require('compression');
 const App = require('./js/App').default;
 
 const StaticRouter = ReactRouter.StaticRouter;
-const port = 8080;
+const port = 3000;
 const baseTemplate = fs.readFileSync('./public/index.html');
 const template = _.template(baseTemplate);
 

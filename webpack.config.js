@@ -101,7 +101,7 @@ if (process.env.NODE_ENV === 'production') {
 
 console.log(process.env.NODE_ENV);
 
-if (process.env.NODE_ENV === 'production') {
+if (process.env.NODE_ENV === 'production' || process.env.NODE_ENV === 'server') {
 	config.entry = './js/ClientApp.jsx';
 	config.devtool = false;
 	config.plugins = [];

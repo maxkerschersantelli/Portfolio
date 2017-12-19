@@ -1,0 +1,127 @@
+{
+	"bio":
+		"<p>It’s nice to meet you! My name’s Max and I’m an ambitious frontend developer with a focus in React development based in the Bay Area. Welcome to my portfolio, feel free to explore and tell me what you think. My life is all things web application development from building complex user interactions to creating large scalable applications. Mostly, I’m eager to create, problem solve, and challenge myself. </p><p>I’ve been doing web development for the past four years, and I’m currently looking for work so feel free to contact me at <a href='mailto:maxkerschersantelli@gmail.com' >maxkerschersantelli@gmail.com</a> or through my <a class='sc-gZMcBi EOUdn' href='https://www.linkedin.com/in/max-kerscher-santelli-34573238'>LinkedIn</a> here. I’d love to talk UX design solutions, mastering coding solutions, you name it!</p><p> Side note: To build this site I used React with Redux, server side rendering, code splitting, and Flow (which I know is over-engineered for a site this size, but it was way too much fun to pass up).</p>",
+	"jobs": [
+		{
+			"company": "Health Platforms Inc.",
+			"company_sub_name": "Doctor.com",
+			"start_date": "2/17",
+			"end_date": "11/17",
+			"position": "Frontend Engineer",
+			"descriptions": [
+				"Built large scale web applications with React and Redux.",
+				"Worked with backend engineers to design RESTful JSON API",
+				"Maintained and improved company site based in PHP.",
+				"Other technologies used include: ReactRouter, Yarn, Git, ES6, Sass"
+			],
+			"img": "doctor.png"
+		},
+		{
+			"company": "Zoho Corporation",
+			"position": "VR Video Game Developer",
+			"position_sub_name": "Contractor",
+			"start_date": "1/17",
+			"end_date": "Present",
+			"descriptions": [
+				"Built a virtual reality game using Unity3D game enginefor iOS, Android and web browsers",
+				"Worked in C# and implimented the Google Cardboard API",
+				"Built scoreboard application for MacOS with PubNub to comunicate scores with VR applicatoin",
+				"Focused on keeping project file sizes to a minimum for optimal load times on web browser"
+			],
+			"img": "zoho.png"
+		},
+		{
+			"company": "The Billboard Creative",
+			"position": "IOS App Developer",
+			"position_sub_name": "Contractor",
+			"start_date": "6/16",
+			"end_date": "11/16",
+			"descriptions": [
+				"Built an iOS app using Swift. More info at http://www.thebillboardcreative.com/app/.",
+				"Updated Website for 2016."
+			],
+			"img": "billboard.png"
+		},
+		{
+			"company": "Westridge School",
+			"position": "Web Developer",
+			"position_sub_name": "Contractor",
+			"start_date": "7/16",
+			"end_date": "7/16",
+			"descriptions": ["Updated and expanded parent portal website using HTML and CSS."],
+			"img": "westridge.jpg"
+		},
+		{
+			"company": "UCSC Help Desk",
+			"position": "Technical Support Specialist",
+			"start_date": "9/14",
+			"end_date": "6/16",
+			"descriptions": [
+				"Provide customer support for IT department (Internet, phones, hardware, software, accounts, Unix, etc.).",
+				"Ticket triage IT requests and delegated work throughout the department."
+			],
+			"img": "santacruz.png"
+		}
+	],
+	"internships": [
+		{
+			"company": "Ambivio",
+			"company_sub_name": "Social media start up",
+			"start_date": "6/15",
+			"end_date": "9/15",
+			"position": "Web Development Intern",
+			"descriptions": [
+				"Used HTML, CSS, and JQuery to build the front end of a social media website.",
+				"Worked with backend built in MeteorDB"
+			],
+			"img": "ambivio.png"
+		},
+		{
+			"company": "GroupDragon",
+			"company_sub_name": "Social media start up",
+			"start_date": "6/14",
+			"end_date": "9/14",
+			"position": "Iphone App Development Intern",
+			"descriptions": [
+				"Used HTML, CSS, and JQuery to fix broken version of PhoneGap app and updated the app’s UI to match a new design.",
+				"Created website landing pages using HTML and CSS to promote the app.",
+				"Served as admin for JIRA bug tracking software."
+			],
+			"img": "dragon.png"
+		}
+	],
+	"skills": {
+		"languages": {
+			"proficient": ["Java", "C", "Javascript"],
+			"some_experience": ["C#", "Objective-C", "JQuery", "Swift", "C++", "Ruby", "Perl", "Python"]
+		},
+		"frameworks": ["React.js", "Redux", "Angular", "Webkit", "D3.js", "NPM", "Flow", "MeteorDB"],
+		"technologies": ["XCode", "Unity3D", "Android Studio", "Web2py", "Unix", "JIRA"]
+	},
+	"projects": [
+		{
+			"name": "Portfolio",
+			"type": "React Project",
+			"description": "this website"
+		},
+		{
+			"name": "Hack Attack",
+			"type": "VR Game for Mobile and Web",
+			"description":
+				"I developed a VR game for Zoho (an IT and business software management company) to educate their users on how ManageEngine tools can help their business. I built the game using the Unity3D game engine and programmed in C#. I also implemented the Google Cardboard VR API to create compatibility for a vast range of VR headsets. In addition, I built a scoreboard application for MacOS that communicates with the game using Pubnub API to display the highest scores. Zoho uses the VR game at ManageEngine trade shows to educate users, attract attendees, and create lead generation to increase ROI.",
+			"url": "/hackattack"
+		},
+		{
+			"name": "The Bill Board Creative Map App",
+			"type": "iOS App",
+			"description": "app bro",
+			"url": "http://www.thebillboardcreative.com/app/",
+			"git": "https://github.com/maxkerschersantelli/BillboardCreative"
+		}
+	],
+	"contactInfo": {
+		"email": "maxkerschersantelli@gmail.com",
+		"linkedIn": "https://www.linkedin.com/in/max-kerscher-santelli-34573238",
+		"github": "https://github.com/maxkerschersantelli"
+	}
+}

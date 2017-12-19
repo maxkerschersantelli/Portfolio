@@ -21,9 +21,7 @@
     "watch": "webpack --watch"
   },
   "jest": {
-    "snapshotSerializers": [
-      "jest-serializer-enzyme"
-    ]
+    "snapshotSerializers": ["jest-serializer-enzyme"]
   },
   "repository": {
     "type": "git",
@@ -75,7 +73,7 @@
     "eslint-loader": "1.7.1",
     "eslint-plugin-flow": "2.29.1",
     "eslint-plugin-flowtype": "2.33.0",
-    "eslint-plugin-import": "2.3.0",
+    "eslint-plugin-import": "2.7.0",
     "eslint-plugin-jsx-a11y": "5.0.3",
     "eslint-plugin-prettier": "2.1.1",
     "eslint-plugin-react": "7.0.1",

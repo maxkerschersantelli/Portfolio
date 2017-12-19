@@ -6,7 +6,7 @@
   "license": "ISC",
   "main": "index.js",
   "scripts": {
-    "restart": "pm2 startOrRestart ecosystem.config.js",
+    "restart": "pm2 startOrRestart ecosystem.config.js --env production",
     "deploy": "pm2 deploy ecosystem.config.js production",
     "dev:node": "node index.js",
     "build": "NODE_ENV=production webpack -p",

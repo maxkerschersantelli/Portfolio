@@ -2,7 +2,7 @@ module.exports = {
   apps: [{
     name: 'portfolio',
     script: 'node',
-      args: '~/Portfolio/source/index.js'
+      args: '~/Portfolio/source/index.js',
     env: {
       "NODE_ENV": "production",
     },

@@ -19,6 +19,7 @@ const HeaderWrapper = styled.header`
 	padding: 8px 30px;
 	box-sizing: border-box;
 	box-shadow: 1px 1px 1px #8080808a;
+    opacity: .5;
 `;
 
 const Name = styled(Link)`

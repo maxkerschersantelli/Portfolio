@@ -1,11 +1,25 @@
 // @flow
 
+import styled from 'styled-components';
+
 import React from 'react';
 import JobsPage from './JobsPage/JobsPage';
 import SkillsPage from './SkillsPage';
 import ProjectsPage from './ProjectsPage/ProjectsPage';
 import ContactPage from './ContactPage';
 import EducationSection from './EducationSection';
+import SplashImage from './SplashImage';
+
+const Bio = styled.div`
+	width: 80%;
+    margin: auto;
+    text-align: center;
+`;
+
+const SectionTitle = styled.h1`
+    text-align: center;
+    margin-top: 80px;
+`;
 
 const Landing = (props: {
 	bio: string,
@@ -16,8 +30,9 @@ const Landing = (props: {
 	contactInfo: { email: string, linkedIn: string, github: string }
 }) => (
 	<div>
+        <SplashImage />
 		<h1>Site Currently Under Development</h1>
-		<div dangerouslySetInnerHTML={{ __html: props.bio }} />
+		<Bio dangerouslySetInnerHTML={{ __html: props.bio }} />
 		<JobsPage jobs={props.jobs} internships={props.internships} />
 		<SkillsPage
 			skills={{
@@ -26,7 +41,7 @@ const Landing = (props: {
 				technologies: props.skills.technologies
 			}}
 		/>
-		<h1>Education:</h1>
+		<SectionTitle>Education</SectionTitle>
 		<EducationSection />
 		<ProjectsPage projects={props.projects} />
 		<ContactPage

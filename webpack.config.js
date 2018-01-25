@@ -8,7 +8,7 @@ if (process.env.NODE_ENV === 'production') {
 		context: __dirname,
 		entry: [
 			'react-hot-loader/patch',
-			'webpack-dev-server/client?http://localhost:8080',
+			'webpack-dev-server/client?http://localhost:3000',
 			'webpack/hot/only-dev-server',
 			'./js/ClientApp.jsx'
 		],
@@ -57,7 +57,7 @@ if (process.env.NODE_ENV === 'production') {
 		context: __dirname,
 		entry: [
 			'react-hot-loader/patch',
-			'webpack-dev-server/client?http://localhost:8080',
+			'webpack-dev-server/client?http://localhost:3000',
 			'webpack/hot/only-dev-server',
 			'./js/ClientApp.jsx'
 		],
@@ -70,7 +70,8 @@ if (process.env.NODE_ENV === 'production') {
 		devServer: {
 			hot: true,
 			publicPath: '/public/',
-			historyApiFallback: true
+			historyApiFallback: true,
+            port: 3000
 		},
 		resolve: {
 			extensions: ['.js', '.jsx', '.json']

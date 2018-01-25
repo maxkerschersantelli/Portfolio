@@ -7,25 +7,17 @@ import styled from 'styled-components';
 import store from './store';
 import AsyncRoute from './AsyncRoute';
 import personalData from '../personal_data.json';
-import Header from './Header';
-import MainMenu from './MainMenu';
+import HeaderMenu from './HeaderMenu';
 
 const BelowHeader = styled.div`
 	width: 100%;
-	height: 100vh;
-	padding-top: 80px;
 	box-sizing: border-box;
-	overflow: hidden;
-	background: #f6f6f6;
+	background: #fff;
 `;
 
 const BodySection = styled.div`
-	width: 79%;
-	height: 100%;
+	width: 100%;
 	box-sizing: border-box;
-	float: right;
-	padding: 5px 5px 5px 5px;
-	overflow-y: auto;
 `;
 
 const FourOhFour = () => <h1>404</h1>;
@@ -33,9 +25,8 @@ const FourOhFour = () => <h1>404</h1>;
 const App = () => (
 	<Provider store={store}>
 		<div>
-			<Header personalData={personalData} />
+			<HeaderMenu />
 			<BelowHeader>
-				<MainMenu />
 				<BodySection>
 					<Switch>
 						<Route

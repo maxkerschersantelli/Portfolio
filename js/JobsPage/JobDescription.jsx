@@ -5,7 +5,7 @@ import styled from 'styled-components';
 
 const JobWrapper = styled.div`
 	box-sizing: border-box;
-	background: #cedcde;
+	background: #e7eaea;
 	padding: 15px 15px 0 15px;
 	margin: 5px 5px 10px 5px;
 	display: flex;

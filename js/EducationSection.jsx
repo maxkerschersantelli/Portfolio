@@ -4,10 +4,11 @@ import React from 'react';
 import styled from 'styled-components';
 
 const EducationWrapper = styled.div`
+    width: 80%;
+    margin: auto;
 	box-sizing: border-box;
 	background: #cedcde;
 	padding: 15px;
-	margin: 5px 5px 10px 5px;
 	display: flex;
 	border-radius: 5px;
 	box-shadow: 1px 1px 1px #8080808a;
